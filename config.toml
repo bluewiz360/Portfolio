@@ -1,0 +1,26 @@
+theme = 'hello-friend-ng'
+title = 'kevin russell'
+languageCode = 'en-us'
+enableRobotsTXT = true
+
+[params]
+homeSubtitle = 'software engineer | husband | aspiring unix wizard'
+    [[params.social]]
+        name = "github"
+        url = "https://github.com/bluewiz360"
+    [[params.social]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/kevinarussell/"
+    [[params.social]]
+        name = "email"
+        url = "mailto:kevin.russell98@gmail.com"
+    [params.logo]
+        logoMark     = ">"
+        logoText     = "$ cd /home/"
+        logoHomeLink = "/"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
